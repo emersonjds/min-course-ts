@@ -32,3 +32,4 @@ const player: PlayerInfo = {
     level: 5,
     nickName: 'major'
 }
+
