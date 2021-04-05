@@ -7,7 +7,7 @@ let message: string
 message = `foo ${isOpen}`
 
 //number ( int, float, hexa, binary)
-let total: number | undefined
+let total: number 
 total = 0xff0
 
 //array (type[])
