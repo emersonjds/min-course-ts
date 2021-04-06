@@ -7,7 +7,7 @@ let message: string
 message = `foo ${isOpen}`
 
 //number ( int, float, hexa, binary)
-let total: number 
+let total: number
 total = 0xff0
 
 //array (type[])
@@ -23,7 +23,7 @@ title = [1, "foo"]
 
 // enum amount of key : value
 enum Colors {
-  white = '#fff',
+  white = '#f44',
   black = "#000"
 }
 
@@ -45,7 +45,7 @@ function error(): never {
   throw new Error("erro")
 }
 
-// Object 
+// Object
 let cart: object
 cart = {
   // (somethins else)
