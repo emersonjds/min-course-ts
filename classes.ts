@@ -16,7 +16,7 @@ class Professional extends Person {
     address: string
 
     constructor(rule: string, address: string) {
-        super(name: string, address: string)
+        super()
         this.rule = rule
         this.address = address
     }
