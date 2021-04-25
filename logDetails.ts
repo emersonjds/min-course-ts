@@ -4,7 +4,7 @@ type Uid = number | string // type alias
 var firstName: string | undefined;
 
 function logDetails(uid: Uid, item: string) {
-  console.log(`a product with ${uid} has a title ${item}`)
+  console.log(`a product with ${uid} has a title ${item} name`)
 }
 
 function logInfo(id: Uid, user: string) {
