@@ -21,7 +21,7 @@ type CharInfo = {
 
 const char: CharInfo = {
     level: 100,
-    nickName: 'major'
+    nickName: 'MAJOR'
 }
 
 type PlayerInfo = UserInfo & CharInfo
