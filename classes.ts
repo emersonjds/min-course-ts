@@ -12,7 +12,7 @@ const person = new Person("Emerson", 31);
 
 class Professional extends Person {
   constructor(rule: string, address: string) {
-    super();
+    super(this.name, this.age);
     this.rule = rule;
     this.address = address;
   }
