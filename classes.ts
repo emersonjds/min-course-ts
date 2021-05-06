@@ -12,10 +12,6 @@ class UserAccount {
     console.log(`The player ${this.name} has ${this.age} years old`);
 
   }
-
-  logName() {
-    console.log(`Name: ${this.name}`)
-  }
 }
 
 const user = new UserAccount('Emerson', 31);
