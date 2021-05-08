@@ -9,10 +9,8 @@ class UserAccount {
 
   //method
   logDetails() {
-    console.log(`The player ${this.name} has ${this.age} years old`);
-
+    console.log(`The player ${this.name} has ${this.age}`);
   }
 }
 
-const user = new UserAccount('Emerson', 31);
-
+const user = new UserAccount("Emerson", 31);
