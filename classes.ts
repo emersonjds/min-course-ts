@@ -9,7 +9,7 @@ class UserAccount {
 
   //method
   logDetails() {
-    console.log(`The player ${this.name} has ${this.age}`);
+    console.log(`The player ${this.name} has ${this.age} years`);
   }
 }
 
