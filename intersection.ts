@@ -30,5 +30,5 @@ const player: PlayerInfo = {
   id: 10,
   name: "Emerson",
   level: 5,
-  nickName: "major_",
+  nickName: "major",
 };
